@@ -72,7 +72,7 @@ const sr = ScrollReveal({
 sr.reveal('.home-title-color',{interval: 300}); 
 sr.reveal('.home-data',{}); 
 sr.reveal('.home-img',{delay: 400}); 
-sr.reveal('.home-social-icon ,i',{ interval: 100}); 
+sr.reveal('.home-social-icon',{ interval: 100}); 
 
 
 /*SCROLL SOBRE*/
