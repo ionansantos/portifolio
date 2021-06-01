@@ -441,6 +441,9 @@ p{
     .projetos-img{
         margin-top: 3.9rem;
     }
+    .projetos-img ,h2{
+        font-size: 1rem;
+    }
     .projetos-img img{
         width: 100%;
         height: 100%;
