@@ -60,6 +60,7 @@ function linkAction() {
 }
 navLink.forEach(n => n.addEventListener('click', linkAction));
 
+
 /*===== SCROLL REVEAL ANIMAÇÃO =====*/
 const sr = ScrollReveal({
     origin: 'top',
@@ -104,7 +105,7 @@ sr.reveal('.contato-button',{interval: 300});
 sr.reveal('.section-title', {interval:200})
 sr.reveal('.home-data', {});
 sr.reveal('.home-img', { delay: 400 });
-sr.reveal('.home-social-icon ,i', { interval: 100 });
+sr.reveal('.home-social-icon', { interval: 100 });
 
 /*SCROLL SOBRE*/
 sr.reveal('.sobre-img', {});
@@ -128,4 +129,7 @@ sr.reveal('.contato-input', { interval: 200 });
 sr.reveal('.contato-button', { interval: 300 });
 
 sr.reveal('.section-title', { interval: 200 })
+
+
+sr.reveal('.footer-icon', { interval: 100 })
 
