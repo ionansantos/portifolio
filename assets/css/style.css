@@ -221,6 +221,7 @@ h2 {
     .nav-toggle {
         display: none;
     }
+  
 }
 
 @media screen and (min-width: 100px) and (max-width: 768px) {
@@ -231,10 +232,11 @@ h2 {
     }
 
     .home-img {
-        right: 0;
+        right: 5%;
         bottom: 0;
         position: absolute;
         width: 260px;
+        top:30%;
     }
     .home-social {
         bottom: 18%;
@@ -254,11 +256,26 @@ h2 {
         text-align: center;
     }
 }
+@media screen and (max-width: 320px){
+    .home-img {
+        right: 0;
+        bottom: 0;
+        position: absolute;
+        width: 230px;
+        top:32%;
+    }
+}
 
 /* === SOBRE ==== */
 
 .sobre {
     padding-bottom: 4rem;
+}
+.sobre-title{
+    font-size: 2rem;
+}
+.sobre-text{
+    font-size: 1rem;
 }
 
 @media screen and (min-width: 1024px) {
@@ -279,6 +296,9 @@ h2 {
 .skills-container {
     padding-top: 2rem;
     text-align: center;
+}
+.skills-text{
+    font-size: 1rem;
 }
 .skills-img img {
     max-width: 300px;
