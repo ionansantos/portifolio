@@ -262,7 +262,7 @@ h2 {
         bottom: 0;
         position: absolute;
         width: 230px;
-        top:32%;
+        top:30%;
     }
 }
 
@@ -301,7 +301,7 @@ h2 {
     font-size: 1rem;
 }
 .skills-img img {
-    max-width: 300px;
+    max-width: 400px;
     width: 100%;
     display: block;
     margin: 0 auto;
@@ -334,31 +334,6 @@ h2 {
     color: #4070f4;
 }
 
-.skills-porcentagem {
-    font-family: "poppins", Arial, Helvetica, sans-serif;
-    font-weight: 800;
-}
-.skills-bar {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    background-color: #4070f4;
-    height: 0.25rem;
-    border-radius: 0.5rem;
-    z-index: 1;
-}
-.skills-html {
-    width: 90%;
-}
-.skills-css {
-    width: 85%;
-}
-.skills-js {
-    width: 80%;
-}
-.skills-vue {
-    width: 75%;
-}
 
 @media screen and (min-width: 768px) {
     .skills-container {
