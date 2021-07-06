@@ -94,9 +94,9 @@ sr.reveal('.projeto-text',{interval: 600});
 sr.reveal('.bg-img',{interval: 800});
 
 // SCROOL PRPJETOS CARDS
-sr.reveal('.projetos-img',{interval: 400}); 
-sr.reveal('.projetos-img',{interval: 500}); 
-sr.reveal('.projetos-img',{interval: 600}); 
+//sr.reveal('.projetos-img',{interval: 400}); 
+//sr.reveal('.projetos-img',{interval: 500}); 
+//sr.reveal('.projetos-img',{interval: 600}); 
 
 /*SCROLL CONTATO*/
 sr.reveal('.contato-input',{interval: 800});
