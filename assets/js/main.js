@@ -1,3 +1,21 @@
+// MODAL DE AVISO
+
+function modalAlert() {
+    let modal = document.getElementById('alert');
+
+    modal.style.display = 'block';
+}
+
+setTimeout(() => {
+    modalAlert();
+}, "1000");
+
+function closeModal() {
+    let modal = document.getElementById('alert');
+
+    modal.style.display = 'none';
+}
+
 // === SCROOL SUAVE ===
 
 const menuItem = document.querySelectorAll('.nav-list a')
