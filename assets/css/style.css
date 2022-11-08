@@ -20,7 +20,7 @@ p {
 }
 
 .section-title {
-    color: #4070f4;
+    color: #45B83F;
     font-family: "poppins", Arial, Helvetica, sans-serif;
     text-align: center;
     margin-bottom: 2rem;
@@ -36,7 +36,7 @@ p {
     right: 0;
     margin: auto;
     top: 3rem;
-    background-color: #4070f4;
+    background-color: #45B83F;
 }
 .section {
     font-family: "poppins", Arial, Helvetica, sans-serif;
@@ -86,11 +86,16 @@ h2 {
 }
 
 .nav-menu li a:hover {
-    color: cornflowerblue;
+    color: #45B83F;
 }
 
 .nav-logo {
+    text-decoration: none;
     color: rgba(0, 0, 0, 0.719);
+}
+.nav-logo:hover {
+    transition: .2s;
+    color: #45B83F;
 }
 
 .nav-toggle {
@@ -113,7 +118,7 @@ h2 {
         height: 100%;
         z-index: 100;
         padding: 2rem;
-        background-color: #0e2431;
+        background-color: #10300E; /*#0e2431*/
         transition: 0.5s;
     }
     .show {
@@ -158,7 +163,7 @@ h2 {
     margin: 0 1rem 0 1rem;
 }
 .home {
-    height: calc(100vh - 3rem);
+    height: calc(98vh - 3rem);
     row-gap: 2rem;
 }
 .home-img {
@@ -174,22 +179,23 @@ h2 {
     width: 400px;
     border-radius: 160px;
 }
-.btn {
+.btn-btn {
     font-family: "poppins", Arial, Helvetica, sans-serif;
     font-weight: bold;
     letter-spacing: 2px;
     padding: 12px 30px;
     border: 1px solid transparent;
-    background-color: #4070f4;
+    background-color: #45B83F;
     border-radius: 8px;
     color: white;
+    text-decoration: none;
     transition: 0.3s;
     cursor: pointer;
 }
-.btn:hover {
+.btn-btn:hover {
     background-color: white;
-    border: 1px solid #4070f4;
-    color: #4070f4;
+    border: 1px solid #45B83F;
+    color: #45B83F;
 }
 
 .home-title {
@@ -199,7 +205,7 @@ h2 {
     padding-bottom: 3rem;
 }
 .home-title-color {
-    color: #4070f4;
+    color: #45B83F;
 }
 .home-social {
     font-weight: 500;
@@ -213,7 +219,7 @@ h2 {
 }
 .home-social i:hover {
     transform: translateY(6px);
-    color: turquoise;
+    color: #45B83F;
 }
 
 @media screen and (min-width: 1024px) {
@@ -355,7 +361,7 @@ h2 {
 
 .projeto-container {
     height: 100%;
-    background-color: #21759b;
+    background-color: #10300E; /*#21759b*/
 }
 .projeto-img img {
     max-width: 300px;
@@ -458,13 +464,13 @@ h2 {
     padding: 15px 40px;
     color: white;
     font-family: "poppins", Arial, Helvetica, sans-serif;
-    background-color: #4070f4;
+    background-color: #45B83F;
     border: 1px solid transparent;
     border-radius: 4px;
     transition: 0.3s;
 }
 .contato-button:hover {
-    border: 1px solid #4070f4;
+    border: 1px solid #45B83F;
     background-color: white;
     color: black;
     transform: translateY(6px);
@@ -474,7 +480,7 @@ h2 {
 /* === RODAPE === */
 
 .footer {
-    background-color: #0e2431;
+    background-color: #10300E; /*#0e2431*/
     color: #fff;
     text-align: center;
     padding: 1rem 0;
