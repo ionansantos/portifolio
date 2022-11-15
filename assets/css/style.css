@@ -357,6 +357,48 @@ h2 {
     }
 }
 
+/* minhas experiencias */
+
+.exp-container {
+    background-color: #fff;
+    box-shadow: 0 2px 12px rgba(69, 74, 78, 0.15);
+    width: 800px;
+    display: block;
+    margin: 100px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.exp-title h2 {
+    text-align: center;
+}
+
+.exp-text {
+    text-align: center;
+    padding: 10px;
+    font-weight: 500;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif
+}
+
+.exp-image img {
+    justify-content: flex-start;
+    position: relative;
+    top: 50px;
+    width: 140px;
+}
+
+@media screen and (max-width: 700px) {
+    .exp-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+    }
+    .exp-image img {
+        margin-bottom: 50px;
+    }
+}
+
 /* === projetos === */
 
 .projeto-container {
