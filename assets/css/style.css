@@ -399,6 +399,27 @@ h2 {
     }
 }
 
+
+
+/* certificados */
+.certificado-container {
+    display: table;
+    padding: 20px;
+    margin: 0 auto;
+}
+.crf-image img {
+    background-color: #fff;
+    box-shadow: 0 2px 12px rgba(55, 59, 61, 0.15);
+    width: 300px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 700px) {
+    .crf-image img {
+        display: block;
+        margin: 10px;
+    }
+}
 /* === projetos === */
 
 .projeto-container {

@@ -105,6 +105,15 @@ sr.reveal('.skills-text',{interval:400});
 sr.reveal('.skills-data',{interval: 200}); 
 sr.reveal('.skills-img',{delay: 600});
 
+/*EXPERIENCIAS */
+sr.reveal('.section-title', {interval:100});
+sr.reveal('.exp-container', {interval:400});
+
+
+/* CERTIFICAÇOES*/
+sr.reveal('.certificado-container', {interval:200});
+sr.reveal('.img', {interval:200});
+
 /*SCROLL PROJETOS*/
 sr.reveal('.projeto-img',{interval: 200}); 
 sr.reveal('.projeto-title',{interval: 400}); 
